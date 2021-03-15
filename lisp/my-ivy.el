@@ -40,7 +40,7 @@
 
 
   ;(custom-set-faces '(ivy-posframe ((t (:background "#161719")))))
-  (setq ivy-posframe-font "BlexMono Nerd Font 16")
+  (setq ivy-posframe-font "Lilex Nerd Font 16")
   (ivy-posframe-mode 1)
 )
 
