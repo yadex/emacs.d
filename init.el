@@ -44,8 +44,7 @@
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 (package-initialize) 
 
-;(set-frame-font "BlexMono Nerd Font Mono 15")
-(set-frame-font "InconsolataLGC NF 15")
+(set-frame-font "FantasqueSansMono Nerd Font 18")
 ;(set-frame-font "Iosevka Nerd Font 16")
 
 (set-face-italic 'font-lock-comment-face nil) 
