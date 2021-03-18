@@ -44,8 +44,8 @@
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 (package-initialize) 
 
-(set-frame-font "FantasqueSansMono Nerd Font 18")
-;(set-frame-font "Iosevka Nerd Font 16")
+(set-frame-font "FantasqueSansMono Nerd Font 16")
+;(set-frame-font "Lilex Nerd Font 15")
 
 (set-face-italic 'font-lock-comment-face nil) 
 

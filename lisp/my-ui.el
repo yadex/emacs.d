@@ -16,7 +16,7 @@
   :config
   (setq doom-themes-enable-bold nil   ;禁用粗体
         doom-themes-enable-italic nil) ;禁用斜体
-  (load-theme 'doom-city-lights t)
+  (load-theme 'doom-nord t)
   ;(set-face-background hl-line-face "#161a2a") ;;高亮行号颜色
   )
 
@@ -24,7 +24,7 @@
       :ensure t
       ;:hook (after-init . doom-modeline-mode)
       :config
-      (setq doom-modeline-height 1)
+      (setq doom-modeline-height 28)
       (set-face-attribute 'mode-line nil :height 150)
       (set-face-attribute 'mode-line-inactive nil :height 150)
       (setq doom-modeline-modal-icon nil)

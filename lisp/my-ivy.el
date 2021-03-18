@@ -33,14 +33,14 @@
   (setq ivy-posframe-width 50)
   (setq ivy-posframe-display-functions-alist '((t . ivy-posframe-display-at-frame-center)))
 
+
 (setq ivy-posframe-parameters
       '((left-fringe . 8)
         (right-fringe . 8)))
 
 
-
   ;(custom-set-faces '(ivy-posframe ((t (:background "#161719")))))
-  (setq ivy-posframe-font "Lilex Nerd Font 16")
+  (setq ivy-posframe-font "Hack Nerd Font 16")
   (ivy-posframe-mode 1)
 )
 
