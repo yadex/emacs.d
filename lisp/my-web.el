@@ -21,11 +21,7 @@
   :ensure t
   :mode ("\\.html\\'" . web-mode)
   )
-(use-package emmet-mode
-  :ensure t
-  :config
-  (define-key emmet-mode-keymap(kbd "C-l") 'emmet-expand-line)
-  )
+
 
 ;;;
 ;;;js
