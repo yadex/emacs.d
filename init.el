@@ -44,8 +44,7 @@
                          ("melpa" . "https://melpa.org/packages/")))
 (package-initialize) 
 
-(set-frame-font "FantasqueSansMono Nerd Font 15")
-;(set-frame-font "Lilex Nerd Font 15")
+(set-frame-font "FantasqueSansMono Nerd Font 16")
 
 (set-face-italic 'font-lock-comment-face nil) 
 
@@ -170,7 +169,7 @@
  '(jdee-db-spec-breakpoint-face-colors (cons "#1b1d1e" "#505050"))
  '(objed-cursor-color "#d02b61")
  '(package-selected-packages
-   '(lsp-mode nord-theme json-mode company-prescient vterm company-web company use-package evil doom-themes diminish auto-package-update))
+   '(nyan-mode spacemacs-theme lsp-mode nord-theme json-mode company-prescient vterm company-web company use-package evil doom-themes diminish auto-package-update))
  '(pdf-view-midnight-colors (cons "#dddddd" "#1b1d1e"))
  '(rustic-ansi-faces
    ["#1b1d1e" "#d02b61" "#60aa00" "#d08928" "#6c9ef8" "#b77fdb" "#00aa80" "#dddddd"])

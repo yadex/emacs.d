@@ -16,7 +16,8 @@
   :config
   (setq doom-themes-enable-bold nil   ;禁用粗体
         doom-themes-enable-italic nil) ;禁用斜体
-  (load-theme 'doom-nord t)
+  (load-theme 'doom-solarized-light t)
+  ;(load-theme 'doom-gruvbox-light t)
   ;(set-face-background hl-line-face "#161a2a") ;;高亮行号颜色
   )
 
@@ -86,7 +87,10 @@
 
   )
 
-
+(use-package nyan-mode
+  :ensure t
+  :config (nyan-mode 1)
+  )
 
 
 
